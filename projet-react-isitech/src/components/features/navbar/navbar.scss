@@ -1,0 +1,60 @@
+// // CUSTOM CSS
+// ul li {
+//     font-weight: 500 !important;
+// }
+
+
+// // CUSTOM BOOTSTRAP
+// .navbar-dark .navbar-brand {
+//     font-weight: 500 !important;
+//     color: #4fc3f7 !important;
+
+// }
+
+// .nav-link {
+//     color: #4fc3f7 !important;
+
+// }
+
+// .nav-link:hover{
+//     color: #81d4fa !important;
+// }
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+.nav{
+	display: flex;
+	padding: 2rem 0.8rem;
+	justify-content: center;
+	align-items:center;
+	
+	& .link{
+		position: relative;
+		& .nav-link{
+            margin: 15px;
+			display: inline-block;
+			height: 40px;
+    	    padding: 0 15px;
+			user-select: none;
+			background: none;
+			border: 2px solid #EBEAED;
+			line-height: 36px;
+			color: white;
+			font-size: 16px;
+			vertical-align: top;
+			border-radius: 50px;
+			font-weight: 600;
+			text-align: left;
+    	    background: transparent;
+			transition: .25s all;
+			cursor: pointer;
+			
+			&:focus{
+				outline: none;
+			}
+			&:hover{
+				border: 5px solid #EBEAED;
+			}
+		}
+	}
+}

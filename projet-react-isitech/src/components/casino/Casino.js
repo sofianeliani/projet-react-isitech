@@ -1,4 +1,5 @@
 import React from 'react';
+import CardOffer from '../card/CardOffer';
 
 class Casino extends React.Component{
 
@@ -9,8 +10,8 @@ class Casino extends React.Component{
 
   render(){
     return (
-      <div className="App">
-          ta race
+      <div className="CasinoApp">
+        <CardOffer/>
       </div>
     );
   }
